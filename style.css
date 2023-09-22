@@ -1,0 +1,61 @@
+ * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,h2,button{
+    font-family: monospace;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.box {
+    display: flex;
+justify-content: space-between;
+}
+h2{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.person{
+    width: 45%;
+    border: 1px solid black;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    border-radius: 5px;
+text-align: center ;
+}
+.person .progress{
+    height: 30px;
+    background-color: #888;
+}
+.person .progress span{
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: aquamarine;
+}
+.person img{
+    width: 200px;
+    height: 200px;
+    margin:10px auto;
+}
+.person button{
+    width: 150px;
+    cursor: pointer;
+    padding: 10px;
+    border:0;
+    background-color: black;
+    color: #f6f6f6;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px auto;
+}
